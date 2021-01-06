@@ -8,7 +8,7 @@ const addDoubleBracketsLinks = (
 ) => {
   const titleToURL = options?.titleToURLPath
     ? require(options.titleToURLPath)
-    : (title: string) => `/${slugify(title)}`;
+    : (title: string) => `/${slugify(title, {lower:true})}`;
 
   const definitions: { [identifier: string]: boolean } = {};
 
