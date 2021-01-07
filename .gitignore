@@ -1,5 +1,4 @@
 node_modules
-lib
 example/.cache
 example/public
 example/.env
