@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-remark-double-brackets-link",
+  "name": "@tlindgren/gatsby-remark-double-brackets-link",
   "version": "0.1.7",
   "description": "Parse double brackets link in markdown",
   "main": "lib/index.js",
@@ -20,13 +20,17 @@
   ],
   "author": "Mathieu Dutour <mathieu@dutour.me>",
   "repository": {
-    "url": "https://github.com/mathieudutour/gatsby-digital-garden",
-    "directory": "packages/gatsby-remark-double-brackets-link"
+    "type": "git",
+    "url": "git+https://github.com/tlindgren/gatsby-digital-garden.git"
   },
   "license": "MIT",
   "dependencies": {
     "slugify": "^1.4.0",
     "unist-util-visit": "^2.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/tlindgren/gatsby-digital-garden/issues"
+  },
+  "homepage": "https://github.com/tlindgren/gatsby-digital-garden#readme"
 }
